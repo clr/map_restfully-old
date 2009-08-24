@@ -1,0 +1,2 @@
+module TestResourcesHelper
+end

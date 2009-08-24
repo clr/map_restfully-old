@@ -10,3 +10,124 @@
   [4;36;1mTestModel Load (0.2ms)[0m   [0;1mSELECT * FROM "test_models" WHERE ("test_models"."id" = 1) [0m
   [4;35;1mTestModel Load (0.1ms)[0m   [0mSELECT * FROM "test_models" [0m
   [4;36;1mTestModel Load (0.2ms)[0m   [0;1mSELECT * FROM "test_models" WHERE ("test_models"."id" IN (1,2,3)) [0m
+  [4;36;1mTestModel Load (0.4ms)[0m   [0;1mSELECT * FROM "test_models" WHERE ("test_models"."id" = 1) [0m
+  [4;35;1mTestModel Load (0.2ms)[0m   [0mSELECT * FROM "test_models" [0m
+  [4;36;1mTestModel Load (0.3ms)[0m   [0;1mSELECT * FROM "test_models" WHERE ("test_models"."id" IN (1,2,3)) [0m
+  [4;36;1mTestModel Load (0.3ms)[0m   [0;1mSELECT * FROM "test_models" WHERE ("test_models"."id" = 1) [0m
+  [4;35;1mTestModel Load (0.3ms)[0m   [0mSELECT * FROM "test_models" [0m
+  [4;36;1mTestModel Load (0.2ms)[0m   [0;1mSELECT * FROM "test_models" WHERE ("test_models"."id" IN (1,2,3)) [0m
+  [4;36;1mTestModel Load (0.3ms)[0m   [0;1mSELECT * FROM "test_models" WHERE ("test_models"."id" = 1) [0m
+  [4;35;1mTestModel Load (0.2ms)[0m   [0mSELECT * FROM "test_models" [0m
+  [4;36;1mTestModel Load (0.2ms)[0m   [0;1mSELECT * FROM "test_models" WHERE ("test_models"."id" IN (1,2,3)) [0m
+  [4;36;1mTestModel Load (0.2ms)[0m   [0;1mSELECT * FROM "test_models" WHERE ("test_models"."id" = 1) [0m
+  [4;35;1mTestModel Load (0.1ms)[0m   [0mSELECT * FROM "test_models" [0m
+  [4;36;1mTestModel Load (0.1ms)[0m   [0;1mSELECT * FROM "test_models" WHERE ("test_models"."id" IN (1,2,3)) [0m
+
+
+Processing TestResourcesController#destroy (for 0.0.0.0 at 2009-08-24 16:28:34) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/test_resources
+Completed in 3ms (DB: 0) | 302 Found [http://test.host/test_resources/37]
+
+
+Processing TestResourcesController#destroy (for 0.0.0.0 at 2009-08-24 16:28:34) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/test_resources
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/test_resources/1]
+
+
+Processing TestResourcesController#update (for 0.0.0.0 at 2009-08-24 16:28:34) [PUT]
+  Parameters: {"id"=>"37", "test_resource"=>{"these"=>"params"}}
+Rendering template within layouts/test_resources
+Rendering test_resources/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/test_resources/37?test_resource%5Bthese%5D=params]
+
+
+Processing TestResourcesController#update (for 0.0.0.0 at 2009-08-24 16:28:34) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/test_resources
+Rendering test_resources/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/test_resources/1]
+
+
+Processing TestResourcesController#update (for 0.0.0.0 at 2009-08-24 16:28:34) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/test_resources
+Rendering test_resources/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/test_resources/1]
+
+
+Processing TestResourcesController#update (for 0.0.0.0 at 2009-08-24 16:28:34) [PUT]
+  Parameters: {"id"=>"37", "test_resource"=>{"these"=>"params"}}
+Rendering template within layouts/test_resources
+Rendering test_resources/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/test_resources/37?test_resource%5Bthese%5D=params]
+
+
+Processing TestResourcesController#update (for 0.0.0.0 at 2009-08-24 16:28:34) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/test_resources/1007
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/test_resources/1]
+
+
+Processing TestResourcesController#update (for 0.0.0.0 at 2009-08-24 16:28:34) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/test_resources/1008
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/test_resources/1]
+
+
+Processing TestResourcesController#create (for 0.0.0.0 at 2009-08-24 16:28:34) [POST]
+  Parameters: {"test_resource"=>{"these"=>"params"}}
+Rendering template within layouts/test_resources
+Rendering test_resources/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/test_resources?test_resource%5Bthese%5D=params]
+
+
+Processing TestResourcesController#create (for 0.0.0.0 at 2009-08-24 16:28:34) [POST]
+  Parameters: {"test_resource"=>{}}
+Rendering template within layouts/test_resources
+Rendering test_resources/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/test_resources?]
+
+
+Processing TestResourcesController#create (for 0.0.0.0 at 2009-08-24 16:28:34) [POST]
+  Parameters: {"test_resource"=>{"these"=>"params"}}
+Redirected to http://test.host/test_resources/1011
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/test_resources?test_resource%5Bthese%5D=params]
+
+
+Processing TestResourcesController#create (for 0.0.0.0 at 2009-08-24 16:28:34) [POST]
+  Parameters: {"test_resource"=>{}}
+Redirected to http://test.host/test_resources/1012
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/test_resources?]
+
+
+Processing TestResourcesController#edit (for 0.0.0.0 at 2009-08-24 16:28:34) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/test_resources
+Rendering test_resources/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/test_resources/37/edit]
+
+
+Processing TestResourcesController#new (for 0.0.0.0 at 2009-08-24 16:28:34) [GET]
+Rendering template within layouts/test_resources
+Rendering test_resources/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/test_resources/new]
+
+
+Processing TestResourcesController#show (for 0.0.0.0 at 2009-08-24 16:28:34) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/test_resources
+Rendering test_resources/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/test_resources/37]
+
+
+Processing TestResourcesController#index (for 0.0.0.0 at 2009-08-24 16:28:34) [GET]
+Rendering template within layouts/test_resources
+Rendering test_resources/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/test_resources]
+Rendering test_resources/show.html.erb
+Rendering test_resources/index.html.erb
+Rendering test_resources/new.html.erb
+Rendering test_resources/edit.html.erb
+  [4;36;1mTestResource Create (0.5ms)[0m   [0;1mINSERT INTO "test_resources" ("name", "updated_at", "created_at") VALUES('value for name', '2009-08-24 20:28:35', '2009-08-24 20:28:35')[0m
