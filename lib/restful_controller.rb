@@ -44,7 +44,7 @@ module RestfulController
       end
     end
   end
- 
+   
   def prepare_restful_controller_method
     case params[:grammatical_number]
     when :plural
@@ -55,7 +55,7 @@ module RestfulController
   end
  
   def prepare_restful_instance_variables
-    prepopulate_instance_of params[:controller].to_s.singularize.camelize
+    prepopulate_instance_of self.controller_name.camelize
   end
   
   def prepopulate_instance_of( resource_class_name )

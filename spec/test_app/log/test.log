@@ -1,0 +1,12 @@
+# Logfile created on Sun Jul 19 13:03:31 -0400 2009  [4;36;1mTestModel Load (0.2ms)[0m   [0;1mSELECT * FROM "test_models" WHERE ("test_models"."id" = 1) [0m
+  [4;35;1mTestModel Load (0.1ms)[0m   [0mSELECT * FROM "test_models" [0m
+  [4;36;1mTestModel Load (7.9ms)[0m   [0;1mSELECT * FROM "test_models" WHERE ("test_models"."id" IN (17,13,31)) [0m
+  [4;36;1mTestModel Load (0.2ms)[0m   [0;1mSELECT * FROM "test_models" WHERE ("test_models"."id" = 1) [0m
+  [4;35;1mTestModel Load (0.1ms)[0m   [0mSELECT * FROM "test_models" [0m
+  [4;36;1mTestModel Load (0.2ms)[0m   [0;1mSELECT * FROM "test_models" WHERE ("test_models"."id" IN (17,13,31)) [0m
+  [4;36;1mTestModel Load (0.2ms)[0m   [0;1mSELECT * FROM "test_models" WHERE ("test_models"."id" = 1) [0m
+  [4;35;1mTestModel Load (0.1ms)[0m   [0mSELECT * FROM "test_models" [0m
+  [4;36;1mTestModel Load (0.2ms)[0m   [0;1mSELECT * FROM "test_models" WHERE ("test_models"."id" IN (1,2,3)) [0m
+  [4;36;1mTestModel Load (0.2ms)[0m   [0;1mSELECT * FROM "test_models" WHERE ("test_models"."id" = 1) [0m
+  [4;35;1mTestModel Load (0.1ms)[0m   [0mSELECT * FROM "test_models" [0m
+  [4;36;1mTestModel Load (0.2ms)[0m   [0;1mSELECT * FROM "test_models" WHERE ("test_models"."id" IN (1,2,3)) [0m
